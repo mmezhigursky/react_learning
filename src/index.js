@@ -5,10 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.css'
-import Movies from './components/counter'
+import Counters from './components/counters'
 
 ReactDOM.render(
-    <Movies />,
+    <Counters />,
   document.getElementById('root')
 );
 
